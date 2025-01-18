@@ -1,0 +1,163 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+
+.container {
+    width: 720px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+h2 {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+h2:first-of-type,
+h2:nth-last-of-type(2) {
+    text-align: left;
+  }
+  
+h2:last-of-type {
+    margin-bottom: 0;
+}
+  
+p {
+    font-size: 18px;
+  }
+
+ul {
+    margin-left: 40px;
+    list-style-type: disc;
+  }
+
+.perforation {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    border: 1px solid #000;
+  }
+  
+.perforation .item {
+    display: table-row;
+    border-bottom: 1px solid #000;
+  }
+  
+.perforation .item:last-child {
+    border-bottom: none;
+  }
+  
+.perforation .item .content {
+    display: table-cell;
+    padding: 10px;
+    vertical-align: top;
+  }
+  
+.perforation .item .image {
+    padding: 15px;
+    text-align: center;
+    width: 30%;
+    border-right: 1px solid #000;
+  }
+  
+.perforation .item .image img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  
+.perforation .item .details {
+    width: 75%;
+    padding-left: 15px;
+  }
+  
+.perforation .item .details ul {
+    margin: 0;
+  }
+  
+.perforation .item .details ul li {
+    padding: 0;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+  }
+
+.perforation .item .details ul::after {
+    content: "\A Файл PDF";
+    white-space: pre;
+    display: block;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: #333;
+    text-align: left;
+    font-weight: 400;
+  }
+
+.container2 {
+    display: flex;
+}
+
+.imageGo {
+    width: 36%;
+}
+
+.imageGo img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.text {
+    padding-left: 2px;
+    width: 50%;
+}
+  
+.text p {
+    line-height: 18px;
+    margin-top: 0;
+    margin-bottom: 31px;
+    font-size: 18px;
+    color: #333;
+}
+
+.text p:first-of-type {
+    margin-bottom: 66px;
+  }
+
+.text p:last-of-type {
+    margin-bottom: 0;
+  }
+
+.ptext {
+    text-indent: 42%;
+    line-height: 18px;
+    color: #333;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-top: -6px;
+    width: 86%;
+}
+
+ol {
+    padding: 20px 55px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+ol li {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+}
